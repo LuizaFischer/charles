@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    color: brown;
+    font: italic bold 30px arial, sans-serif;
+    }
+    p{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    font: italic bold 15px arial, sans-serif;
+    }
+    h2{
+    text-align: center;
+    }
+    body{
+        background-color: rgb(252, 252, 238);
+    }
+
+.tudo{
+    align-self: center;
+    text-align: center;
+}
+.visualG{
+    background-color: rgb(240, 228, 207);
+    color: black;
+    padding: 15px;
+    border-width: 0;
+    border-radius: 20px;   
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.visualG:hover{
+    background-color: rgb(255, 179, 47);
+}
+.js{
+    background-color: rgb(240, 228, 207);
+    color: black;
+    padding: 15px;
+    border-width: 0;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: all 0.3s;
+}
+    .js:hover{
+        background-color: rgb(255, 179, 47);
+    }
+.botoes{
+    padding-top: 50px;
+   display: flex;
+   flex-direction: row;
+   width: 200px;
+   margin: auto;
+   text-align: center;
+   justify-content: center;
+   justify-content: space-between;
+}
+#mes{
+    height: 60px;
+    text-align: center;
+}
+#gato{
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+    position: absolute;
+	left: 60%;
+	top: 20%
+}
