@@ -8,16 +8,16 @@ function calculo(){
         case 8:
         case 10:
         case 12:
-            document.getElementById("resposta").innerHTML = "Seu mês tem 31 dias"
+            document.getElementById("resposta").innerHTML = "O mês possui 31 dias"
           break;
         case 4:
         case 6:
         case 9:
         case 11:
-            document.getElementById("resposta").innerHTML = "Seu mês tem 30 dias"
+            document.getElementById("resposta").innerHTML = "O mês possui 30 dias"
           break;
         case 2:
-            document.getElementById("resposta").innerHTML = "Seu mês tem 28 dias"
+            document.getElementById("resposta").innerHTML = "O mês possui 28 dias"
           break;     
       }
     }
